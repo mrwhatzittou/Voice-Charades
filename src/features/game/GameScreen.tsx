@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import type { Dispatch } from 'react';
 import { DIE_FACES } from '../../lib/random';
 import type { GameAction } from '../../state/gameReducer';
-import type { Category, GameState, PenaltyEvent, Team } from '../../state/types';
+import type { Category, GameState, Team } from '../../state/types';
 
 interface GameScreenProps {
   state: GameState;
@@ -19,30 +19,26 @@ const CATEGORY_LABELS: Record<Category, string> = {
   ps: "P's"
 };
 
-const PENALTY_TYPES: Array<{ type: PenaltyEvent['type']; label: string }> = [
-  { type: 'hands_unclasped', label: 'Hands unclasped' },
-  { type: 'pointed_at_object', label: 'Indicated toward answer word/scene' },
-  { type: 'used_non_onomatopoeia', label: 'Used non-onomatopoeia words' },
-  { type: 'used_forbidden_onomatopoeia', label: 'Used onomatopoeia in answer word/scene' },
-  { type: 'movement_only_no_sound', label: 'Movement without sound' }
-];
-
 function findTeam(teams: Team[], teamId: string): Team | undefined {
   return teams.find((team) => team.id === teamId);
 }
 
 export function GameScreen({ state, dispatch }: GameScreenProps) {
   const [selectedAllInTeamIds, setSelectedAllInTeamIds] = useState<string[]>([]);
-  const [penaltySourceTeamId, setPenaltySourceTeamId] = useState(state.round.activeTeamId);
   const [partyCardId, setPartyCardId] = useState<string | null>(null);
-
-  useEffect(() => {
-    setPenaltySourceTeamId(state.round.activeTeamId);
-  }, [state.round.activeTeamId]);
+  const [showCardPopup, setShowCardPopup] = useState(false);
 
   useEffect(() => {
     setSelectedAllInTeamIds([]);
   }, [state.round.activeCardId, state.round.mode]);
+
+  useEffect(() => {
+    if (state.round.activeCardId) {
+      setShowCardPopup(true);
+      return;
+    }
+    setShowCardPopup(false);
+  }, [state.round.activeCardId]);
 
   const activeTeam = findTeam(state.teams, state.round.activeTeamId);
   const activePlayer = state.players.find((player) => player.id === state.round.activePlayerId);
@@ -79,6 +75,7 @@ export function GameScreen({ state, dispatch }: GameScreenProps) {
   }, [state]);
 
   const lifelinesDisabled = state.round.mode !== 'normal' || !state.round.timerRunning;
+  const canDrawCard = Boolean(state.round.chosenCategory) && state.round.timerSecondsLeft > 0;
 
   const rollRoundDie = () => {
     const dieFace = DIE_FACES[Math.floor(Math.random() * DIE_FACES.length)];
@@ -100,50 +97,81 @@ export function GameScreen({ state, dispatch }: GameScreenProps) {
     );
   };
 
+  const handleCorrect = () => {
+    dispatch({ type: 'MARK_TEAM_GUESS_CORRECT' });
+    setShowCardPopup(false);
+  };
+
+  const handlePass = () => {
+    dispatch({ type: 'MARK_PASS' });
+    setShowCardPopup(false);
+  };
+
+  const handleDeadCard = () => {
+    dispatch({ type: 'MARK_DEAD_CARD' });
+    setShowCardPopup(false);
+  };
+
+  const handlePenalty = () => {
+    dispatch({
+      type: 'APPLY_PENALTY',
+      payload: {
+        type: 'hands_unclasped',
+        sourceTeamId: state.round.activeTeamId
+      }
+    });
+  };
+
+  const closePopup = () => {
+    setShowCardPopup(false);
+  };
+
   return (
     <section className="panel game-panel">
-      <h2>Game Table</h2>
-
-      <div className="status-grid">
+      <div className="game-header-strip">
         <div>
-          <strong>Active team:</strong> {activeTeam?.name ?? 'Not set'}
+          <p className="muted">Active Team</p>
+          <h3>{activeTeam?.name ?? 'Not set'}</h3>
         </div>
         <div>
-          <strong>Sound Master:</strong> {activePlayer?.name ?? 'Not set'}
+          <p className="muted">Sound Master</p>
+          <h3>{activePlayer?.name ?? 'Not set'}</h3>
         </div>
         <div>
-          <strong>Mode:</strong> {state.round.mode.replace(/_/g, ' ')}
+          <p className="muted">Mode</p>
+          <h3>{state.round.mode.replace(/_/g, ' ')}</h3>
         </div>
         <div>
-          <strong>Timer:</strong> {state.round.timerSecondsLeft}s
+          <p className="muted">Timer</p>
+          <h3>{state.round.timerSecondsLeft}s</h3>
         </div>
       </div>
 
-      <div className="control-row">
+      <div className="control-row round-controls">
         <button type="button" onClick={() => dispatch({ type: 'START_ROUND' })}>
           Start Round
         </button>
         <button type="button" onClick={rollRoundDie}>
           Roll Die
         </button>
-        <button type="button" onClick={() => dispatch({ type: 'START_TIMER' })}>
-          Start Timer
+        <button type="button" onClick={() => dispatch({ type: 'DRAW_NEXT_CARD' })} disabled={!canDrawCard}>
+          Draw Card
         </button>
         <button type="button" onClick={() => dispatch({ type: 'END_ROUND_AND_SCORE' })}>
           End Round & Score
         </button>
       </div>
 
-      <div className="status-grid">
+      <div className="status-grid compact">
         <div>
-          <strong>Die result:</strong> {state.round.dieFace.replace('_', ' ')}
+          <strong>Die:</strong> {state.round.dieFace.replace('_', ' ')}
         </div>
         <div>
           <strong>Category:</strong>{' '}
           {state.round.chosenCategory ? CATEGORY_LABELS[state.round.chosenCategory] : 'Not chosen'}
         </div>
         <div>
-          <strong>Uncuff active:</strong> {state.round.uncuffActive ? 'Yes' : 'No'}
+          <strong>Uncuff:</strong> {state.round.uncuffActive ? 'Active' : 'Inactive'}
         </div>
         <div>
           <strong>Steal lock:</strong> {stealLockTeam?.name ?? 'None'}
@@ -166,13 +194,7 @@ export function GameScreen({ state, dispatch }: GameScreenProps) {
           </div>
         )}
 
-      <div className="control-row">
-        <button type="button" onClick={() => dispatch({ type: 'DRAW_NEXT_CARD' })}>
-          Draw Card
-        </button>
-      </div>
-
-      <article className="card-view">
+      <article className={`card-view game-card ${activeCard ? 'is-live' : ''}`}>
         <h3>Current Card</h3>
         {activeCard ? (
           <>
@@ -181,26 +203,29 @@ export function GameScreen({ state, dispatch }: GameScreenProps) {
             <p className="card-points">{activeCard.points} point(s)</p>
           </>
         ) : (
-          <p className="muted">No active card.</p>
+          <p className="muted">Draw a card to start timed clueing.</p>
         )}
       </article>
 
       {activeCard && state.round.mode === 'normal' && (
-        <div className="control-row">
-          <button type="button" onClick={() => dispatch({ type: 'MARK_TEAM_GUESS_CORRECT' })}>
-            Team Correct Guess
+        <div className="game-action-grid">
+          <button type="button" className="action-btn success" onClick={handleCorrect}>
+            Correct
           </button>
-          <button type="button" onClick={() => dispatch({ type: 'MARK_PASS' })}>
+          <button type="button" className="action-btn warning" onClick={handlePass}>
             Pass Card
           </button>
-          <button type="button" onClick={() => dispatch({ type: 'MARK_DEAD_CARD' })}>
-            Mark Dead Card
+          <button type="button" className="action-btn neutral" onClick={handleDeadCard}>
+            Dead Card
+          </button>
+          <button type="button" className="action-btn penalty" onClick={handlePenalty}>
+            Penalty
           </button>
         </div>
       )}
 
       {activeCard && (state.round.mode === 'all_in' || state.round.mode === 'tiebreak_all_in') && (
-        <div className="all-in-award">
+        <div className="all-in-award panel-inner">
           <h3>All-in Correct Guess Teams</h3>
           <div className="team-checkboxes">
             {state.teams.map((team) => (
@@ -217,17 +242,18 @@ export function GameScreen({ state, dispatch }: GameScreenProps) {
           <div className="control-row">
             <button
               type="button"
-              onClick={() =>
+              onClick={() => {
                 dispatch({
                   type: 'MARK_TEAM_GUESS_CORRECT',
                   payload: { teamIds: selectedAllInTeamIds }
-                })
-              }
+                });
+                setShowCardPopup(false);
+              }}
               disabled={selectedAllInTeamIds.length === 0}
             >
               Award Card Points
             </button>
-            <button type="button" onClick={() => dispatch({ type: 'MARK_DEAD_CARD' })}>
+            <button type="button" onClick={handleDeadCard}>
               Mark Dead Card
             </button>
             <button
@@ -285,7 +311,10 @@ export function GameScreen({ state, dispatch }: GameScreenProps) {
           <div className="control-row">
             <button
               type="button"
-              onClick={() => dispatch({ type: 'RESOLVE_STEAL', payload: { correct: true } })}
+              onClick={() => {
+                dispatch({ type: 'RESOLVE_STEAL', payload: { correct: true } });
+                setShowCardPopup(false);
+              }}
             >
               Steal Correct
             </button>
@@ -297,40 +326,6 @@ export function GameScreen({ state, dispatch }: GameScreenProps) {
             </button>
           </div>
         )}
-      </article>
-
-      <article className="panel-inner">
-        <h3>Penalty Controls (+1 to all other teams)</h3>
-        <label>
-          Source team
-          <select
-            value={penaltySourceTeamId}
-            onChange={(event) => setPenaltySourceTeamId(event.target.value)}
-          >
-            {state.teams.map((team) => (
-              <option key={`penalty-source-${team.id}`} value={team.id}>
-                {team.name}
-              </option>
-            ))}
-          </select>
-        </label>
-
-        <div className="team-checkboxes">
-          {PENALTY_TYPES.map((penalty) => (
-            <button
-              key={penalty.type}
-              type="button"
-              onClick={() =>
-                dispatch({
-                  type: 'APPLY_PENALTY',
-                  payload: { type: penalty.type, sourceTeamId: penaltySourceTeamId }
-                })
-              }
-            >
-              {penalty.label}
-            </button>
-          ))}
-        </div>
       </article>
 
       <article className="panel-inner">
@@ -370,6 +365,22 @@ export function GameScreen({ state, dispatch }: GameScreenProps) {
             </div>
           )}
         </article>
+      )}
+
+      {showCardPopup && activeCard && (
+        <div className="card-modal-backdrop" onClick={closePopup} role="presentation">
+          <div className="card-modal" onClick={(event) => event.stopPropagation()}>
+            <div className="row-between modal-head">
+              <h3>Current Card</h3>
+              <button type="button" onClick={closePopup} className="modal-close">
+                Close
+              </button>
+            </div>
+            <p className="card-category">{CATEGORY_LABELS[activeCard.category]}</p>
+            <p className="card-text">{activeCard.text}</p>
+            <p className="card-points">{activeCard.points} point(s)</p>
+          </div>
+        </div>
       )}
     </section>
   );

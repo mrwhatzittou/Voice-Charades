@@ -494,7 +494,8 @@ export function gameReducer(state: GameState, action: GameAction): GameState {
         round: {
           ...state.round,
           activeCardId: cardId,
-          stealLockTeamId: null
+          stealLockTeamId: null,
+          timerRunning: true
         }
       };
 
@@ -594,7 +595,7 @@ export function gameReducer(state: GameState, action: GameAction): GameState {
         }
       };
 
-      nextState = addLog(nextState, 'penalty', `Penalty logged: ${action.payload.type}.`);
+      nextState = addLog(nextState, 'penalty', 'Penalty logged.');
       return nextState;
     }
 

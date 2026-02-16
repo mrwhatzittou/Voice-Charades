@@ -27,3 +27,9 @@ TODO for next agent:
 - Added App shell with tabs, persistence, round timer loop, and accessibility/test hooks (`render_game_to_text`, `advanceTime`).
 - Added README and prompt-bank integrity check command.
 - Updated penalty wording in Game, Rules, and Lowdown UI to match screenshot language exactly (word/scene phrasing and explicit mistake list).
+- Updated gameplay flow: drawing a card now auto-starts the timer.
+- Redesigned Game screen to a more app-like layout with big action buttons (Correct, Pass Card, Dead Card, Penalty).
+- Added card popup modal whenever a card is drawn.
+- Removed in-game penalty-reason picker; penalty is now a single action button.
+- Verified locally: `npm run build` passes and `npm run test` passes (8/8 tests).
+- Playwright skill client could not run in this environment because the skill script cannot resolve `playwright` from its install location.
