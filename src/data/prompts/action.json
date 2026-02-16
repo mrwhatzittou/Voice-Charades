@@ -1,0 +1,392 @@
+[
+  {
+    "id": "action-001",
+    "category": "action",
+    "text": "tying shoelaces",
+    "points": 1
+  },
+  {
+    "id": "action-002",
+    "category": "action",
+    "text": "washing dishes",
+    "points": 2
+  },
+  {
+    "id": "action-003",
+    "category": "action",
+    "text": "juggling balls",
+    "points": 3
+  },
+  {
+    "id": "action-004",
+    "category": "action",
+    "text": "riding a bicycle",
+    "points": 1
+  },
+  {
+    "id": "action-005",
+    "category": "action",
+    "text": "opening a stuck jar",
+    "points": 2
+  },
+  {
+    "id": "action-006",
+    "category": "action",
+    "text": "building a sandcastle",
+    "points": 3
+  },
+  {
+    "id": "action-007",
+    "category": "action",
+    "text": "painting a wall",
+    "points": 1
+  },
+  {
+    "id": "action-008",
+    "category": "action",
+    "text": "folding laundry",
+    "points": 2
+  },
+  {
+    "id": "action-009",
+    "category": "action",
+    "text": "vacuuming a rug",
+    "points": 3
+  },
+  {
+    "id": "action-010",
+    "category": "action",
+    "text": "watering plants",
+    "points": 1
+  },
+  {
+    "id": "action-011",
+    "category": "action",
+    "text": "kicking a soccer ball",
+    "points": 2
+  },
+  {
+    "id": "action-012",
+    "category": "action",
+    "text": "jumping rope",
+    "points": 3
+  },
+  {
+    "id": "action-013",
+    "category": "action",
+    "text": "climbing stairs",
+    "points": 1
+  },
+  {
+    "id": "action-014",
+    "category": "action",
+    "text": "brushing teeth",
+    "points": 2
+  },
+  {
+    "id": "action-015",
+    "category": "action",
+    "text": "typing on a keyboard",
+    "points": 3
+  },
+  {
+    "id": "action-016",
+    "category": "action",
+    "text": "playing drums",
+    "points": 1
+  },
+  {
+    "id": "action-017",
+    "category": "action",
+    "text": "reading a map",
+    "points": 2
+  },
+  {
+    "id": "action-018",
+    "category": "action",
+    "text": "setting up a tent",
+    "points": 3
+  },
+  {
+    "id": "action-019",
+    "category": "action",
+    "text": "paddling a canoe",
+    "points": 1
+  },
+  {
+    "id": "action-020",
+    "category": "action",
+    "text": "baking cookies",
+    "points": 2
+  },
+  {
+    "id": "action-021",
+    "category": "action",
+    "text": "wrapping a gift",
+    "points": 3
+  },
+  {
+    "id": "action-022",
+    "category": "action",
+    "text": "sweeping leaves",
+    "points": 1
+  },
+  {
+    "id": "action-023",
+    "category": "action",
+    "text": "mowing the lawn",
+    "points": 2
+  },
+  {
+    "id": "action-024",
+    "category": "action",
+    "text": "chopping vegetables",
+    "points": 3
+  },
+  {
+    "id": "action-025",
+    "category": "action",
+    "text": "stirring soup",
+    "points": 1
+  },
+  {
+    "id": "action-026",
+    "category": "action",
+    "text": "inflating a balloon",
+    "points": 2
+  },
+  {
+    "id": "action-027",
+    "category": "action",
+    "text": "balancing on one foot",
+    "points": 3
+  },
+  {
+    "id": "action-028",
+    "category": "action",
+    "text": "hula hooping",
+    "points": 1
+  },
+  {
+    "id": "action-029",
+    "category": "action",
+    "text": "rowing a boat",
+    "points": 2
+  },
+  {
+    "id": "action-030",
+    "category": "action",
+    "text": "flying a kite",
+    "points": 3
+  },
+  {
+    "id": "action-031",
+    "category": "action",
+    "text": "feeding a baby",
+    "points": 1
+  },
+  {
+    "id": "action-032",
+    "category": "action",
+    "text": "changing a lightbulb",
+    "points": 2
+  },
+  {
+    "id": "action-033",
+    "category": "action",
+    "text": "hammering a nail",
+    "points": 3
+  },
+  {
+    "id": "action-034",
+    "category": "action",
+    "text": "using a stapler",
+    "points": 1
+  },
+  {
+    "id": "action-035",
+    "category": "action",
+    "text": "skating on ice",
+    "points": 2
+  },
+  {
+    "id": "action-036",
+    "category": "action",
+    "text": "skiing downhill",
+    "points": 3
+  },
+  {
+    "id": "action-037",
+    "category": "action",
+    "text": "throwing a frisbee",
+    "points": 1
+  },
+  {
+    "id": "action-038",
+    "category": "action",
+    "text": "serving tennis",
+    "points": 2
+  },
+  {
+    "id": "action-039",
+    "category": "action",
+    "text": "shooting a basketball",
+    "points": 3
+  },
+  {
+    "id": "action-040",
+    "category": "action",
+    "text": "fishing with a rod",
+    "points": 1
+  },
+  {
+    "id": "action-041",
+    "category": "action",
+    "text": "digging a hole",
+    "points": 2
+  },
+  {
+    "id": "action-042",
+    "category": "action",
+    "text": "shoveling snow",
+    "points": 3
+  },
+  {
+    "id": "action-043",
+    "category": "action",
+    "text": "taking a selfie",
+    "points": 1
+  },
+  {
+    "id": "action-044",
+    "category": "action",
+    "text": "blowing bubbles",
+    "points": 2
+  },
+  {
+    "id": "action-045",
+    "category": "action",
+    "text": "zipping a backpack",
+    "points": 3
+  },
+  {
+    "id": "action-046",
+    "category": "action",
+    "text": "locking a door",
+    "points": 1
+  },
+  {
+    "id": "action-047",
+    "category": "action",
+    "text": "unlocking a padlock",
+    "points": 2
+  },
+  {
+    "id": "action-048",
+    "category": "action",
+    "text": "calling on a phone",
+    "points": 3
+  },
+  {
+    "id": "action-049",
+    "category": "action",
+    "text": "sending a text message",
+    "points": 1
+  },
+  {
+    "id": "action-050",
+    "category": "action",
+    "text": "drinking from a straw",
+    "points": 2
+  },
+  {
+    "id": "action-051",
+    "category": "action",
+    "text": "pouring lemonade",
+    "points": 3
+  },
+  {
+    "id": "action-052",
+    "category": "action",
+    "text": "ironing a shirt",
+    "points": 1
+  },
+  {
+    "id": "action-053",
+    "category": "action",
+    "text": "sewing a button",
+    "points": 2
+  },
+  {
+    "id": "action-054",
+    "category": "action",
+    "text": "knitting a scarf",
+    "points": 3
+  },
+  {
+    "id": "action-055",
+    "category": "action",
+    "text": "whistling a tune",
+    "points": 1
+  },
+  {
+    "id": "action-056",
+    "category": "action",
+    "text": "playing the flute",
+    "points": 2
+  },
+  {
+    "id": "action-057",
+    "category": "action",
+    "text": "driving a bus",
+    "points": 3
+  },
+  {
+    "id": "action-058",
+    "category": "action",
+    "text": "parking a car",
+    "points": 1
+  },
+  {
+    "id": "action-059",
+    "category": "action",
+    "text": "racing on a track",
+    "points": 2
+  },
+  {
+    "id": "action-060",
+    "category": "action",
+    "text": "walking a dog",
+    "points": 3
+  },
+  {
+    "id": "action-061",
+    "category": "action",
+    "text": "brushing a pet",
+    "points": 1
+  },
+  {
+    "id": "action-062",
+    "category": "action",
+    "text": "washing a car",
+    "points": 2
+  },
+  {
+    "id": "action-063",
+    "category": "action",
+    "text": "packing a suitcase",
+    "points": 3
+  },
+  {
+    "id": "action-064",
+    "category": "action",
+    "text": "unpacking groceries",
+    "points": 1
+  },
+  {
+    "id": "action-065",
+    "category": "action",
+    "text": "planting a tree",
+    "points": 2
+  }
+]

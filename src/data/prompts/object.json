@@ -1,0 +1,392 @@
+[
+  {
+    "id": "object-001",
+    "category": "object",
+    "text": "umbrella",
+    "points": 1
+  },
+  {
+    "id": "object-002",
+    "category": "object",
+    "text": "toaster",
+    "points": 2
+  },
+  {
+    "id": "object-003",
+    "category": "object",
+    "text": "backpack",
+    "points": 3
+  },
+  {
+    "id": "object-004",
+    "category": "object",
+    "text": "bicycle helmet",
+    "points": 1
+  },
+  {
+    "id": "object-005",
+    "category": "object",
+    "text": "flashlight",
+    "points": 2
+  },
+  {
+    "id": "object-006",
+    "category": "object",
+    "text": "watering can",
+    "points": 3
+  },
+  {
+    "id": "object-007",
+    "category": "object",
+    "text": "tennis racket",
+    "points": 1
+  },
+  {
+    "id": "object-008",
+    "category": "object",
+    "text": "soccer ball",
+    "points": 2
+  },
+  {
+    "id": "object-009",
+    "category": "object",
+    "text": "skateboard",
+    "points": 3
+  },
+  {
+    "id": "object-010",
+    "category": "object",
+    "text": "alarm clock",
+    "points": 1
+  },
+  {
+    "id": "object-011",
+    "category": "object",
+    "text": "coffee mug",
+    "points": 2
+  },
+  {
+    "id": "object-012",
+    "category": "object",
+    "text": "lunchbox",
+    "points": 3
+  },
+  {
+    "id": "object-013",
+    "category": "object",
+    "text": "paintbrush",
+    "points": 1
+  },
+  {
+    "id": "object-014",
+    "category": "object",
+    "text": "stapler",
+    "points": 2
+  },
+  {
+    "id": "object-015",
+    "category": "object",
+    "text": "headphones",
+    "points": 3
+  },
+  {
+    "id": "object-016",
+    "category": "object",
+    "text": "microphone",
+    "points": 1
+  },
+  {
+    "id": "object-017",
+    "category": "object",
+    "text": "camera tripod",
+    "points": 2
+  },
+  {
+    "id": "object-018",
+    "category": "object",
+    "text": "telescope",
+    "points": 3
+  },
+  {
+    "id": "object-019",
+    "category": "object",
+    "text": "binoculars",
+    "points": 1
+  },
+  {
+    "id": "object-020",
+    "category": "object",
+    "text": "compass",
+    "points": 2
+  },
+  {
+    "id": "object-021",
+    "category": "object",
+    "text": "map",
+    "points": 3
+  },
+  {
+    "id": "object-022",
+    "category": "object",
+    "text": "globe",
+    "points": 1
+  },
+  {
+    "id": "object-023",
+    "category": "object",
+    "text": "chessboard",
+    "points": 2
+  },
+  {
+    "id": "object-024",
+    "category": "object",
+    "text": "drumstick",
+    "points": 3
+  },
+  {
+    "id": "object-025",
+    "category": "object",
+    "text": "flute",
+    "points": 1
+  },
+  {
+    "id": "object-026",
+    "category": "object",
+    "text": "violin bow",
+    "points": 2
+  },
+  {
+    "id": "object-027",
+    "category": "object",
+    "text": "kite",
+    "points": 3
+  },
+  {
+    "id": "object-028",
+    "category": "object",
+    "text": "parachute",
+    "points": 1
+  },
+  {
+    "id": "object-029",
+    "category": "object",
+    "text": "snow shovel",
+    "points": 2
+  },
+  {
+    "id": "object-030",
+    "category": "object",
+    "text": "garden rake",
+    "points": 3
+  },
+  {
+    "id": "object-031",
+    "category": "object",
+    "text": "hammer",
+    "points": 1
+  },
+  {
+    "id": "object-032",
+    "category": "object",
+    "text": "screwdriver",
+    "points": 2
+  },
+  {
+    "id": "object-033",
+    "category": "object",
+    "text": "wrench",
+    "points": 3
+  },
+  {
+    "id": "object-034",
+    "category": "object",
+    "text": "tape measure",
+    "points": 1
+  },
+  {
+    "id": "object-035",
+    "category": "object",
+    "text": "sewing machine",
+    "points": 2
+  },
+  {
+    "id": "object-036",
+    "category": "object",
+    "text": "rolling pin",
+    "points": 3
+  },
+  {
+    "id": "object-037",
+    "category": "object",
+    "text": "mixing bowl",
+    "points": 1
+  },
+  {
+    "id": "object-038",
+    "category": "object",
+    "text": "whisk",
+    "points": 2
+  },
+  {
+    "id": "object-039",
+    "category": "object",
+    "text": "frying pan",
+    "points": 3
+  },
+  {
+    "id": "object-040",
+    "category": "object",
+    "text": "teapot",
+    "points": 1
+  },
+  {
+    "id": "object-041",
+    "category": "object",
+    "text": "thermos",
+    "points": 2
+  },
+  {
+    "id": "object-042",
+    "category": "object",
+    "text": "pencil case",
+    "points": 3
+  },
+  {
+    "id": "object-043",
+    "category": "object",
+    "text": "notebook",
+    "points": 1
+  },
+  {
+    "id": "object-044",
+    "category": "object",
+    "text": "bookmark",
+    "points": 2
+  },
+  {
+    "id": "object-045",
+    "category": "object",
+    "text": "paper airplane",
+    "points": 3
+  },
+  {
+    "id": "object-046",
+    "category": "object",
+    "text": "remote control",
+    "points": 1
+  },
+  {
+    "id": "object-047",
+    "category": "object",
+    "text": "game controller",
+    "points": 2
+  },
+  {
+    "id": "object-048",
+    "category": "object",
+    "text": "doorbell",
+    "points": 3
+  },
+  {
+    "id": "object-049",
+    "category": "object",
+    "text": "padlock",
+    "points": 1
+  },
+  {
+    "id": "object-050",
+    "category": "object",
+    "text": "keychain",
+    "points": 2
+  },
+  {
+    "id": "object-051",
+    "category": "object",
+    "text": "wallet",
+    "points": 3
+  },
+  {
+    "id": "object-052",
+    "category": "object",
+    "text": "suitcase",
+    "points": 1
+  },
+  {
+    "id": "object-053",
+    "category": "object",
+    "text": "sleeping bag",
+    "points": 2
+  },
+  {
+    "id": "object-054",
+    "category": "object",
+    "text": "tent",
+    "points": 3
+  },
+  {
+    "id": "object-055",
+    "category": "object",
+    "text": "camp stove",
+    "points": 1
+  },
+  {
+    "id": "object-056",
+    "category": "object",
+    "text": "lantern",
+    "points": 2
+  },
+  {
+    "id": "object-057",
+    "category": "object",
+    "text": "surfboard",
+    "points": 3
+  },
+  {
+    "id": "object-058",
+    "category": "object",
+    "text": "life jacket",
+    "points": 1
+  },
+  {
+    "id": "object-059",
+    "category": "object",
+    "text": "fishing rod",
+    "points": 2
+  },
+  {
+    "id": "object-060",
+    "category": "object",
+    "text": "watering hose",
+    "points": 3
+  },
+  {
+    "id": "object-061",
+    "category": "object",
+    "text": "plant pot",
+    "points": 1
+  },
+  {
+    "id": "object-062",
+    "category": "object",
+    "text": "flower vase",
+    "points": 2
+  },
+  {
+    "id": "object-063",
+    "category": "object",
+    "text": "vacuum cleaner",
+    "points": 3
+  },
+  {
+    "id": "object-064",
+    "category": "object",
+    "text": "mop bucket",
+    "points": 1
+  },
+  {
+    "id": "object-065",
+    "category": "object",
+    "text": "laundry basket",
+    "points": 2
+  }
+]

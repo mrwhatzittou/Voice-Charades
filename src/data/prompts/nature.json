@@ -1,0 +1,392 @@
+[
+  {
+    "id": "nature-001",
+    "category": "nature",
+    "text": "thunderstorm",
+    "points": 1
+  },
+  {
+    "id": "nature-002",
+    "category": "nature",
+    "text": "rainbow",
+    "points": 2
+  },
+  {
+    "id": "nature-003",
+    "category": "nature",
+    "text": "waterfall",
+    "points": 3
+  },
+  {
+    "id": "nature-004",
+    "category": "nature",
+    "text": "volcano eruption",
+    "points": 1
+  },
+  {
+    "id": "nature-005",
+    "category": "nature",
+    "text": "earthquake tremor",
+    "points": 2
+  },
+  {
+    "id": "nature-006",
+    "category": "nature",
+    "text": "northern lights",
+    "points": 3
+  },
+  {
+    "id": "nature-007",
+    "category": "nature",
+    "text": "sand dune",
+    "points": 1
+  },
+  {
+    "id": "nature-008",
+    "category": "nature",
+    "text": "coral reef",
+    "points": 2
+  },
+  {
+    "id": "nature-009",
+    "category": "nature",
+    "text": "ocean wave",
+    "points": 3
+  },
+  {
+    "id": "nature-010",
+    "category": "nature",
+    "text": "snowflake",
+    "points": 1
+  },
+  {
+    "id": "nature-011",
+    "category": "nature",
+    "text": "hailstorm",
+    "points": 2
+  },
+  {
+    "id": "nature-012",
+    "category": "nature",
+    "text": "tornado",
+    "points": 3
+  },
+  {
+    "id": "nature-013",
+    "category": "nature",
+    "text": "hurricane",
+    "points": 1
+  },
+  {
+    "id": "nature-014",
+    "category": "nature",
+    "text": "foggy morning",
+    "points": 2
+  },
+  {
+    "id": "nature-015",
+    "category": "nature",
+    "text": "sunrise",
+    "points": 3
+  },
+  {
+    "id": "nature-016",
+    "category": "nature",
+    "text": "sunset",
+    "points": 1
+  },
+  {
+    "id": "nature-017",
+    "category": "nature",
+    "text": "full moon",
+    "points": 2
+  },
+  {
+    "id": "nature-018",
+    "category": "nature",
+    "text": "crescent moon",
+    "points": 3
+  },
+  {
+    "id": "nature-019",
+    "category": "nature",
+    "text": "shooting star",
+    "points": 1
+  },
+  {
+    "id": "nature-020",
+    "category": "nature",
+    "text": "comet trail",
+    "points": 2
+  },
+  {
+    "id": "nature-021",
+    "category": "nature",
+    "text": "river bend",
+    "points": 3
+  },
+  {
+    "id": "nature-022",
+    "category": "nature",
+    "text": "mountain peak",
+    "points": 1
+  },
+  {
+    "id": "nature-023",
+    "category": "nature",
+    "text": "forest trail",
+    "points": 2
+  },
+  {
+    "id": "nature-024",
+    "category": "nature",
+    "text": "desert oasis",
+    "points": 3
+  },
+  {
+    "id": "nature-025",
+    "category": "nature",
+    "text": "flower field",
+    "points": 1
+  },
+  {
+    "id": "nature-026",
+    "category": "nature",
+    "text": "cherry blossom",
+    "points": 2
+  },
+  {
+    "id": "nature-027",
+    "category": "nature",
+    "text": "pine forest",
+    "points": 3
+  },
+  {
+    "id": "nature-028",
+    "category": "nature",
+    "text": "mangrove swamp",
+    "points": 1
+  },
+  {
+    "id": "nature-029",
+    "category": "nature",
+    "text": "wetland marsh",
+    "points": 2
+  },
+  {
+    "id": "nature-030",
+    "category": "nature",
+    "text": "savanna grass",
+    "points": 3
+  },
+  {
+    "id": "nature-031",
+    "category": "nature",
+    "text": "jungle canopy",
+    "points": 1
+  },
+  {
+    "id": "nature-032",
+    "category": "nature",
+    "text": "cactus bloom",
+    "points": 2
+  },
+  {
+    "id": "nature-033",
+    "category": "nature",
+    "text": "autumn leaves",
+    "points": 3
+  },
+  {
+    "id": "nature-034",
+    "category": "nature",
+    "text": "spring rain",
+    "points": 1
+  },
+  {
+    "id": "nature-035",
+    "category": "nature",
+    "text": "winter frost",
+    "points": 2
+  },
+  {
+    "id": "nature-036",
+    "category": "nature",
+    "text": "summer heatwave",
+    "points": 3
+  },
+  {
+    "id": "nature-037",
+    "category": "nature",
+    "text": "sea breeze",
+    "points": 1
+  },
+  {
+    "id": "nature-038",
+    "category": "nature",
+    "text": "tidal pool",
+    "points": 2
+  },
+  {
+    "id": "nature-039",
+    "category": "nature",
+    "text": "rocky cliff",
+    "points": 3
+  },
+  {
+    "id": "nature-040",
+    "category": "nature",
+    "text": "glacier crack",
+    "points": 1
+  },
+  {
+    "id": "nature-041",
+    "category": "nature",
+    "text": "geyser burst",
+    "points": 2
+  },
+  {
+    "id": "nature-042",
+    "category": "nature",
+    "text": "hot spring",
+    "points": 3
+  },
+  {
+    "id": "nature-043",
+    "category": "nature",
+    "text": "muddy river",
+    "points": 1
+  },
+  {
+    "id": "nature-044",
+    "category": "nature",
+    "text": "beaver dam",
+    "points": 2
+  },
+  {
+    "id": "nature-045",
+    "category": "nature",
+    "text": "honeybee swarm",
+    "points": 3
+  },
+  {
+    "id": "nature-046",
+    "category": "nature",
+    "text": "butterfly migration",
+    "points": 1
+  },
+  {
+    "id": "nature-047",
+    "category": "nature",
+    "text": "wolf howl",
+    "points": 2
+  },
+  {
+    "id": "nature-048",
+    "category": "nature",
+    "text": "owl hoot",
+    "points": 3
+  },
+  {
+    "id": "nature-049",
+    "category": "nature",
+    "text": "frog chorus",
+    "points": 1
+  },
+  {
+    "id": "nature-050",
+    "category": "nature",
+    "text": "cricket chirp",
+    "points": 2
+  },
+  {
+    "id": "nature-051",
+    "category": "nature",
+    "text": "bird flock",
+    "points": 3
+  },
+  {
+    "id": "nature-052",
+    "category": "nature",
+    "text": "eagle soaring",
+    "points": 1
+  },
+  {
+    "id": "nature-053",
+    "category": "nature",
+    "text": "whale breach",
+    "points": 2
+  },
+  {
+    "id": "nature-054",
+    "category": "nature",
+    "text": "dolphin pod",
+    "points": 3
+  },
+  {
+    "id": "nature-055",
+    "category": "nature",
+    "text": "seal colony",
+    "points": 1
+  },
+  {
+    "id": "nature-056",
+    "category": "nature",
+    "text": "penguin huddle",
+    "points": 2
+  },
+  {
+    "id": "nature-057",
+    "category": "nature",
+    "text": "polar bear track",
+    "points": 3
+  },
+  {
+    "id": "nature-058",
+    "category": "nature",
+    "text": "deer antlers",
+    "points": 1
+  },
+  {
+    "id": "nature-059",
+    "category": "nature",
+    "text": "fox den",
+    "points": 2
+  },
+  {
+    "id": "nature-060",
+    "category": "nature",
+    "text": "rabbit burrow",
+    "points": 3
+  },
+  {
+    "id": "nature-061",
+    "category": "nature",
+    "text": "squirrel nest",
+    "points": 1
+  },
+  {
+    "id": "nature-062",
+    "category": "nature",
+    "text": "acorn drop",
+    "points": 2
+  },
+  {
+    "id": "nature-063",
+    "category": "nature",
+    "text": "fallen log",
+    "points": 3
+  },
+  {
+    "id": "nature-064",
+    "category": "nature",
+    "text": "mushroom patch",
+    "points": 1
+  },
+  {
+    "id": "nature-065",
+    "category": "nature",
+    "text": "wildflower meadow",
+    "points": 2
+  }
+]

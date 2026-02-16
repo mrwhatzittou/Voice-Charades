@@ -1,0 +1,392 @@
+[
+  {
+    "id": "ps-001",
+    "category": "ps",
+    "text": "astronaut",
+    "points": 1
+  },
+  {
+    "id": "ps-002",
+    "category": "ps",
+    "text": "teacher",
+    "points": 2
+  },
+  {
+    "id": "ps-003",
+    "category": "ps",
+    "text": "chef",
+    "points": 3
+  },
+  {
+    "id": "ps-004",
+    "category": "ps",
+    "text": "firefighter",
+    "points": 1
+  },
+  {
+    "id": "ps-005",
+    "category": "ps",
+    "text": "pilot",
+    "points": 2
+  },
+  {
+    "id": "ps-006",
+    "category": "ps",
+    "text": "doctor",
+    "points": 3
+  },
+  {
+    "id": "ps-007",
+    "category": "ps",
+    "text": "nurse",
+    "points": 1
+  },
+  {
+    "id": "ps-008",
+    "category": "ps",
+    "text": "farmer",
+    "points": 2
+  },
+  {
+    "id": "ps-009",
+    "category": "ps",
+    "text": "librarian",
+    "points": 3
+  },
+  {
+    "id": "ps-010",
+    "category": "ps",
+    "text": "photographer",
+    "points": 1
+  },
+  {
+    "id": "ps-011",
+    "category": "ps",
+    "text": "carpenter",
+    "points": 2
+  },
+  {
+    "id": "ps-012",
+    "category": "ps",
+    "text": "dancer",
+    "points": 3
+  },
+  {
+    "id": "ps-013",
+    "category": "ps",
+    "text": "scientist",
+    "points": 1
+  },
+  {
+    "id": "ps-014",
+    "category": "ps",
+    "text": "coach",
+    "points": 2
+  },
+  {
+    "id": "ps-015",
+    "category": "ps",
+    "text": "magician",
+    "points": 3
+  },
+  {
+    "id": "ps-016",
+    "category": "ps",
+    "text": "baker",
+    "points": 1
+  },
+  {
+    "id": "ps-017",
+    "category": "ps",
+    "text": "zookeeper",
+    "points": 2
+  },
+  {
+    "id": "ps-018",
+    "category": "ps",
+    "text": "musician",
+    "points": 3
+  },
+  {
+    "id": "ps-019",
+    "category": "ps",
+    "text": "engineer",
+    "points": 1
+  },
+  {
+    "id": "ps-020",
+    "category": "ps",
+    "text": "detective",
+    "points": 2
+  },
+  {
+    "id": "ps-021",
+    "category": "ps",
+    "text": "mail carrier",
+    "points": 3
+  },
+  {
+    "id": "ps-022",
+    "category": "ps",
+    "text": "park ranger",
+    "points": 1
+  },
+  {
+    "id": "ps-023",
+    "category": "ps",
+    "text": "Eiffel Tower",
+    "points": 2
+  },
+  {
+    "id": "ps-024",
+    "category": "ps",
+    "text": "Great Wall",
+    "points": 3
+  },
+  {
+    "id": "ps-025",
+    "category": "ps",
+    "text": "Grand Canyon",
+    "points": 1
+  },
+  {
+    "id": "ps-026",
+    "category": "ps",
+    "text": "Times Square",
+    "points": 2
+  },
+  {
+    "id": "ps-027",
+    "category": "ps",
+    "text": "Golden Gate Bridge",
+    "points": 3
+  },
+  {
+    "id": "ps-028",
+    "category": "ps",
+    "text": "Sydney Opera House",
+    "points": 1
+  },
+  {
+    "id": "ps-029",
+    "category": "ps",
+    "text": "Great Barrier Reef",
+    "points": 2
+  },
+  {
+    "id": "ps-030",
+    "category": "ps",
+    "text": "Niagara Falls",
+    "points": 3
+  },
+  {
+    "id": "ps-031",
+    "category": "ps",
+    "text": "Mount Everest",
+    "points": 1
+  },
+  {
+    "id": "ps-032",
+    "category": "ps",
+    "text": "Sahara Desert",
+    "points": 2
+  },
+  {
+    "id": "ps-033",
+    "category": "ps",
+    "text": "Amazon Rainforest",
+    "points": 3
+  },
+  {
+    "id": "ps-034",
+    "category": "ps",
+    "text": "Stonehenge",
+    "points": 1
+  },
+  {
+    "id": "ps-035",
+    "category": "ps",
+    "text": "Pyramids of Giza",
+    "points": 2
+  },
+  {
+    "id": "ps-036",
+    "category": "ps",
+    "text": "Tokyo Tower",
+    "points": 3
+  },
+  {
+    "id": "ps-037",
+    "category": "ps",
+    "text": "Colosseum",
+    "points": 1
+  },
+  {
+    "id": "ps-038",
+    "category": "ps",
+    "text": "Machu Picchu",
+    "points": 2
+  },
+  {
+    "id": "ps-039",
+    "category": "ps",
+    "text": "Taj Mahal",
+    "points": 3
+  },
+  {
+    "id": "ps-040",
+    "category": "ps",
+    "text": "Statue of Liberty",
+    "points": 1
+  },
+  {
+    "id": "ps-041",
+    "category": "ps",
+    "text": "Big Ben",
+    "points": 2
+  },
+  {
+    "id": "ps-042",
+    "category": "ps",
+    "text": "Yellowstone Park",
+    "points": 3
+  },
+  {
+    "id": "ps-043",
+    "category": "ps",
+    "text": "Sherlock Holmes",
+    "points": 1
+  },
+  {
+    "id": "ps-044",
+    "category": "ps",
+    "text": "Wonder Woman",
+    "points": 2
+  },
+  {
+    "id": "ps-045",
+    "category": "ps",
+    "text": "Spider-Man",
+    "points": 3
+  },
+  {
+    "id": "ps-046",
+    "category": "ps",
+    "text": "Harry Potter",
+    "points": 1
+  },
+  {
+    "id": "ps-047",
+    "category": "ps",
+    "text": "Moana",
+    "points": 2
+  },
+  {
+    "id": "ps-048",
+    "category": "ps",
+    "text": "Mulan",
+    "points": 3
+  },
+  {
+    "id": "ps-049",
+    "category": "ps",
+    "text": "Batman",
+    "points": 1
+  },
+  {
+    "id": "ps-050",
+    "category": "ps",
+    "text": "Superman",
+    "points": 2
+  },
+  {
+    "id": "ps-051",
+    "category": "ps",
+    "text": "Elsa",
+    "points": 3
+  },
+  {
+    "id": "ps-052",
+    "category": "ps",
+    "text": "Woody from Toy Story",
+    "points": 1
+  },
+  {
+    "id": "ps-053",
+    "category": "ps",
+    "text": "Darth Vader",
+    "points": 2
+  },
+  {
+    "id": "ps-054",
+    "category": "ps",
+    "text": "Luke Skywalker",
+    "points": 3
+  },
+  {
+    "id": "ps-055",
+    "category": "ps",
+    "text": "Mario",
+    "points": 1
+  },
+  {
+    "id": "ps-056",
+    "category": "ps",
+    "text": "Luigi",
+    "points": 2
+  },
+  {
+    "id": "ps-057",
+    "category": "ps",
+    "text": "Pikachu",
+    "points": 3
+  },
+  {
+    "id": "ps-058",
+    "category": "ps",
+    "text": "Sonic the Hedgehog",
+    "points": 1
+  },
+  {
+    "id": "ps-059",
+    "category": "ps",
+    "text": "Peter Pan",
+    "points": 2
+  },
+  {
+    "id": "ps-060",
+    "category": "ps",
+    "text": "Winnie the Pooh",
+    "points": 3
+  },
+  {
+    "id": "ps-061",
+    "category": "ps",
+    "text": "Cinderella",
+    "points": 1
+  },
+  {
+    "id": "ps-062",
+    "category": "ps",
+    "text": "Rapunzel",
+    "points": 2
+  },
+  {
+    "id": "ps-063",
+    "category": "ps",
+    "text": "Aladdin",
+    "points": 3
+  },
+  {
+    "id": "ps-064",
+    "category": "ps",
+    "text": "Genie",
+    "points": 1
+  },
+  {
+    "id": "ps-065",
+    "category": "ps",
+    "text": "Black Panther",
+    "points": 2
+  }
+]

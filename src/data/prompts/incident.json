@@ -1,0 +1,392 @@
+[
+  {
+    "id": "incident-001",
+    "category": "incident",
+    "text": "power outage",
+    "points": 1
+  },
+  {
+    "id": "incident-002",
+    "category": "incident",
+    "text": "birthday surprise",
+    "points": 2
+  },
+  {
+    "id": "incident-003",
+    "category": "incident",
+    "text": "fire alarm ringing",
+    "points": 3
+  },
+  {
+    "id": "incident-004",
+    "category": "incident",
+    "text": "bee sting",
+    "points": 1
+  },
+  {
+    "id": "incident-005",
+    "category": "incident",
+    "text": "lost wallet",
+    "points": 2
+  },
+  {
+    "id": "incident-006",
+    "category": "incident",
+    "text": "flat tire",
+    "points": 3
+  },
+  {
+    "id": "incident-007",
+    "category": "incident",
+    "text": "rainstorm starts",
+    "points": 1
+  },
+  {
+    "id": "incident-008",
+    "category": "incident",
+    "text": "spilled milk",
+    "points": 2
+  },
+  {
+    "id": "incident-009",
+    "category": "incident",
+    "text": "missed school bus",
+    "points": 3
+  },
+  {
+    "id": "incident-010",
+    "category": "incident",
+    "text": "broken shoelace",
+    "points": 1
+  },
+  {
+    "id": "incident-011",
+    "category": "incident",
+    "text": "phone battery dies",
+    "points": 2
+  },
+  {
+    "id": "incident-012",
+    "category": "incident",
+    "text": "balloon pops",
+    "points": 3
+  },
+  {
+    "id": "incident-013",
+    "category": "incident",
+    "text": "dog escapes yard",
+    "points": 1
+  },
+  {
+    "id": "incident-014",
+    "category": "incident",
+    "text": "traffic jam",
+    "points": 2
+  },
+  {
+    "id": "incident-015",
+    "category": "incident",
+    "text": "picnic interrupted by ants",
+    "points": 3
+  },
+  {
+    "id": "incident-016",
+    "category": "incident",
+    "text": "toaster sparks",
+    "points": 1
+  },
+  {
+    "id": "incident-017",
+    "category": "incident",
+    "text": "window breaks",
+    "points": 2
+  },
+  {
+    "id": "incident-018",
+    "category": "incident",
+    "text": "ice cream melts",
+    "points": 3
+  },
+  {
+    "id": "incident-019",
+    "category": "incident",
+    "text": "smoke detector beeps",
+    "points": 1
+  },
+  {
+    "id": "incident-020",
+    "category": "incident",
+    "text": "computer crashes",
+    "points": 2
+  },
+  {
+    "id": "incident-021",
+    "category": "incident",
+    "text": "elevator stuck",
+    "points": 3
+  },
+  {
+    "id": "incident-022",
+    "category": "incident",
+    "text": "water pipe leak",
+    "points": 1
+  },
+  {
+    "id": "incident-023",
+    "category": "incident",
+    "text": "train delay",
+    "points": 2
+  },
+  {
+    "id": "incident-024",
+    "category": "incident",
+    "text": "movie projector fails",
+    "points": 3
+  },
+  {
+    "id": "incident-025",
+    "category": "incident",
+    "text": "fuse blows",
+    "points": 1
+  },
+  {
+    "id": "incident-026",
+    "category": "incident",
+    "text": "umbrella flips inside out",
+    "points": 2
+  },
+  {
+    "id": "incident-027",
+    "category": "incident",
+    "text": "soccer ball hits window",
+    "points": 3
+  },
+  {
+    "id": "incident-028",
+    "category": "incident",
+    "text": "kite gets tangled in tree",
+    "points": 1
+  },
+  {
+    "id": "incident-029",
+    "category": "incident",
+    "text": "house key missing",
+    "points": 2
+  },
+  {
+    "id": "incident-030",
+    "category": "incident",
+    "text": "alarm clock fails",
+    "points": 3
+  },
+  {
+    "id": "incident-031",
+    "category": "incident",
+    "text": "laptop falls",
+    "points": 1
+  },
+  {
+    "id": "incident-032",
+    "category": "incident",
+    "text": "shopping bag tears",
+    "points": 2
+  },
+  {
+    "id": "incident-033",
+    "category": "incident",
+    "text": "suitcase zipper breaks",
+    "points": 3
+  },
+  {
+    "id": "incident-034",
+    "category": "incident",
+    "text": "bike chain slips",
+    "points": 1
+  },
+  {
+    "id": "incident-035",
+    "category": "incident",
+    "text": "shoe gets stuck in mud",
+    "points": 2
+  },
+  {
+    "id": "incident-036",
+    "category": "incident",
+    "text": "garden hose bursts",
+    "points": 3
+  },
+  {
+    "id": "incident-037",
+    "category": "incident",
+    "text": "sandcastle collapses",
+    "points": 1
+  },
+  {
+    "id": "incident-038",
+    "category": "incident",
+    "text": "snowman falls over",
+    "points": 2
+  },
+  {
+    "id": "incident-039",
+    "category": "incident",
+    "text": "cake drops on floor",
+    "points": 3
+  },
+  {
+    "id": "incident-040",
+    "category": "incident",
+    "text": "ball rolls into street",
+    "points": 1
+  },
+  {
+    "id": "incident-041",
+    "category": "incident",
+    "text": "cat knocks vase",
+    "points": 2
+  },
+  {
+    "id": "incident-042",
+    "category": "incident",
+    "text": "printer jams",
+    "points": 3
+  },
+  {
+    "id": "incident-043",
+    "category": "incident",
+    "text": "mic goes silent",
+    "points": 1
+  },
+  {
+    "id": "incident-044",
+    "category": "incident",
+    "text": "flashlight dies",
+    "points": 2
+  },
+  {
+    "id": "incident-045",
+    "category": "incident",
+    "text": "doorbell stops working",
+    "points": 3
+  },
+  {
+    "id": "incident-046",
+    "category": "incident",
+    "text": "bird steals sandwich",
+    "points": 1
+  },
+  {
+    "id": "incident-047",
+    "category": "incident",
+    "text": "tree branch snaps",
+    "points": 2
+  },
+  {
+    "id": "incident-048",
+    "category": "incident",
+    "text": "tent pole breaks",
+    "points": 3
+  },
+  {
+    "id": "incident-049",
+    "category": "incident",
+    "text": "raincoat zipper jams",
+    "points": 1
+  },
+  {
+    "id": "incident-050",
+    "category": "incident",
+    "text": "paint spills on carpet",
+    "points": 2
+  },
+  {
+    "id": "incident-051",
+    "category": "incident",
+    "text": "bathtub overflows",
+    "points": 3
+  },
+  {
+    "id": "incident-052",
+    "category": "incident",
+    "text": "sink clogs",
+    "points": 1
+  },
+  {
+    "id": "incident-053",
+    "category": "incident",
+    "text": "book gets wet",
+    "points": 2
+  },
+  {
+    "id": "incident-054",
+    "category": "incident",
+    "text": "camera memory full",
+    "points": 3
+  },
+  {
+    "id": "incident-055",
+    "category": "incident",
+    "text": "frozen lock",
+    "points": 1
+  },
+  {
+    "id": "incident-056",
+    "category": "incident",
+    "text": "hot cocoa spill",
+    "points": 2
+  },
+  {
+    "id": "incident-057",
+    "category": "incident",
+    "text": "backpack strap snaps",
+    "points": 3
+  },
+  {
+    "id": "incident-058",
+    "category": "incident",
+    "text": "bus passes stop",
+    "points": 1
+  },
+  {
+    "id": "incident-059",
+    "category": "incident",
+    "text": "ticket gets lost",
+    "points": 2
+  },
+  {
+    "id": "incident-060",
+    "category": "incident",
+    "text": "toy battery leaks",
+    "points": 3
+  },
+  {
+    "id": "incident-061",
+    "category": "incident",
+    "text": "soccer game canceled",
+    "points": 1
+  },
+  {
+    "id": "incident-062",
+    "category": "incident",
+    "text": "hiking trail closed",
+    "points": 2
+  },
+  {
+    "id": "incident-063",
+    "category": "incident",
+    "text": "watering can cracks",
+    "points": 3
+  },
+  {
+    "id": "incident-064",
+    "category": "incident",
+    "text": "phone falls in puddle",
+    "points": 1
+  },
+  {
+    "id": "incident-065",
+    "category": "incident",
+    "text": "lunchbox forgotten",
+    "points": 2
+  }
+]
