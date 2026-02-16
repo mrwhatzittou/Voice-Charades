@@ -400,8 +400,9 @@ export function gameReducer(state: GameState, action: GameAction): GameState {
         return state;
       }
 
-      const mode = state.round.mode === 'tiebreak_all_in' ? 'tiebreak_all_in' : 'normal';
-      let nextState = {
+      const mode: RoundState['mode'] =
+        state.round.mode === 'tiebreak_all_in' ? 'tiebreak_all_in' : 'normal';
+      let nextState: GameState = {
         ...state,
         round: {
           ...createRoundState(
@@ -428,8 +429,13 @@ export function gameReducer(state: GameState, action: GameAction): GameState {
       }
 
       const dieFace = action.payload.dieFace;
-      const mode = dieFace === 'all_in' ? state.round.mode === 'tiebreak_all_in' ? 'tiebreak_all_in' : 'all_in' : 'normal';
-      let nextState = {
+      const mode: RoundState['mode'] =
+        dieFace === 'all_in'
+          ? state.round.mode === 'tiebreak_all_in'
+            ? 'tiebreak_all_in'
+            : 'all_in'
+          : 'normal';
+      let nextState: GameState = {
         ...state,
         round: {
           ...state.round,
@@ -539,7 +545,7 @@ export function gameReducer(state: GameState, action: GameAction): GameState {
         return state;
       }
 
-      const penalties =
+      const penalties: PenaltyEvent[] =
         state.round.mode === 'normal'
           ? [
               ...state.round.penalties,
